@@ -23,6 +23,7 @@ div{
     top: 0;
     position: -webkit-sticky;
     color: white;
+    z-index: 1;
 }
 
 .search{
