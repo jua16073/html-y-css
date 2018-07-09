@@ -3,11 +3,14 @@ Rodrigo Juarez 16073
 8 de julio de 2018
 */
 
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
 div{
     padding: 0;
     margin: 0;
 }
-
 
 .sticky{
     background: rgb(23, 30, 40);
@@ -32,22 +35,101 @@ div{
     box-sizing: border-box;
     float: left;
     width: 50%;
-}
-
-.blacod{
-    background: rgb(244, 245, 249);
-
+    height: 100%;
 }
 
 .title{
     color: white;
-    margin: 100px 50px;
     margin-bottom: none;
+    margin-top: 100px;
+    margin-left: 50px;
     font-size: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .sub{
     color: rgb(77, 83, 97);
-    margin: 50px;
-    margin-top: none;
+    margin-top: 10;
+    margin-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    border-radius: 12px;
+}
+
+.button1{
+    background: rgb(9, 111, 156); 
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 95%;
+    border: none;
+    width: 250px;
+    height: 50px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+.button1:hover{
+    width: 265px;
+    height: 65px;
+    margin-top: 52.5px;
+    margin-left: 42.5px;
+    font-size: 100%;
+}
+
+.mainimg{
+    width: 450px;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.mainimg:hover{
+    width: 520px;
+    height: auto;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.blancod{
+    background: rgb(244, 245, 249);
+    width: 100%;
+    height: 1500px;
+}
+
+.bianco1{
+    width: 100%;
+    height: 30%;
+}
+
+.compinche2{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 33%;
+}
+.lista{
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    height: 90%;
+    margin-left: 30px;
+    margin-top: 40px;
+    background: white;
+}
+
+.info{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.infop{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
 }
